@@ -1,0 +1,14 @@
+{
+    "apim-request-id": "927f1a78-1f44-4b74-9efb-4e4cd2b4c6a2",
+    "content-length": "165",
+    "content-type": "application/json; charset=utf-8",
+    "modelVersion": "2023-10-01",
+    "captionResult": {
+      "text": "a finger pointing at a glowing brain",
+      "confidence": 0.7391676306724548
+    },
+    "metadata": {
+      "width": 1920,
+      "height": 1080
+    }
+  }
