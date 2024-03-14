@@ -1,4 +1,3 @@
-
 import asyncio
 import io
 import os
@@ -17,10 +16,10 @@ from azure.cognitiveservices.vision.face.models import TrainingStatusType, Perso
 
 
 # This key will serve all examples in this document.
-KEY = [r"bf69de1ac5854f7fb3d604a6614d2c30"]
+KEY = os.environ["VISION_KEY"]
 
 # This endpoint will be used in all examples in this quickstart.
-ENDPOINT = [r"https://lab-ai-2.cognitiveservices.azure.com/"]   
+ENDPOINT = os.environ["VISION_ENDPOINT"]
 
 # Base url for the Verify and Facelist/Large Facelist operations
 IMAGE_BASE_URL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/Face/images/'
